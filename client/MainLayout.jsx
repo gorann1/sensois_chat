@@ -75,7 +75,7 @@ function renderAvatar(user) {
         style={{ fontSize: 96 }}
         className="material-icons"
       >
-        {'perm_identity'}
+        perm_identity
       </FontIcon>
     }
 
@@ -83,7 +83,7 @@ function renderAvatar(user) {
 }
 
 function fullName(user) {
-  return user ? `${user.name} ${user.lastName}` : 'Who are you?'
+  return user ? `${user.name} ${user.lastName}` : 'Tko si ti?'
 }
 
 export default ({ children, user }) => (

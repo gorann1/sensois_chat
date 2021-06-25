@@ -156,7 +156,7 @@ export default class Chatroom extends React.Component {
                   style={{ fontSize: 24 }}
                   className="material-icons"
                 >
-                  {'close'}
+                  close
                 </FontIcon>
               }
               onClick={this.props.onLeave}
@@ -214,7 +214,7 @@ export default class Chatroom extends React.Component {
                   style={{ fontSize: 32 }}
                   className="material-icons"
                 >
-                  {'chat_bubble_outline'}
+                  chat_bubble_outline
                 </FontIcon>
               </FloatingActionButton>
             </InputPanel>
